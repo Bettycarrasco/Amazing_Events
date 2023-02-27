@@ -7,7 +7,6 @@
 li>a {
     text-decoration: none;
     padding: 12px;
-    ;
     border-radius: 50px;
     color: red;
     font-size: 25px;
@@ -23,7 +22,7 @@ li>a {
 }
 
 .card-img-top {
-    box-shadow: 7px 7px 7px rgb(72, 67, 241);
+    box-shadow: 2px 2px 2px rgb(72, 67, 241);
 }
 
 .btn {
@@ -52,8 +51,19 @@ li>a {
     box-shadow: 1px 1px rgb(76, 81, 231);
 }
 
+main {
+    min-height: 800px;
+}
+
 footer {
     display: flex;
     align-items: baseline;
     background-color: rgb(239, 150, 193);
+}
+
+
+@media screen and (max-width:425px) {
+    .Flechas {
+        height: 30px;
+    }
 }
