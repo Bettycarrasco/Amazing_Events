@@ -48,7 +48,7 @@ li>a {
 }
 
 .form-control {
-    box-shadow: 1px 1px rgb(76, 81, 231);
+    box-shadow: 2px 2px 2px rgb(76, 81, 231);
 }
 
 main {
@@ -62,6 +62,9 @@ footer {
     background-color: rgb(239, 150, 193);
 }
 
+tr {
+    box-shadow: 2px 2px 2px rgb(76, 81, 231);
+}
 
 @media screen and (max-width:425px) {
     .Flechas {
